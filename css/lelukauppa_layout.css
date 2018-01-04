@@ -1,0 +1,864 @@
+/* CSS Document */
+
+/* Main layout declarations */
+
+body {
+	background: #000 url(../images/body_background.png) top left repeat-x ;
+}
+
+#container {
+	position: relative;
+	top: 0px;
+	left: 150px;
+	width: 780px;
+	text-align: center;
+	float: left;
+	clear: left;
+	border-top: 0;
+	}
+
+#header {
+	width: 780px;
+	height: 150px;
+	padding: 0px;
+	vertical-align: bottom;
+	text-align: left;
+	}
+	
+#lelukauppa_logo {
+	width: 477px;
+	height: 115px;
+	margin: 0 0 0 20px;
+	}
+	
+#navigation {
+	position: absolute;
+	left: 0px;
+	top: 115px;
+	width: 780px;
+	height: 30px;
+	z-index: 10;
+	text-align: left;
+	}
+
+#navigation ul {
+	margin-left: 0px;
+	margin-top: 5px;
+}
+
+#navigation ul li {
+	/*background: url(/images/naviArrow.gif) no-repeat; */
+	
+}
+
+#navigation ul li a {
+	display: inline;
+	color: #f2e400;
+	font: 1.5em  'century gothic', arial,helvetica, verdana;
+	padding: 0 5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#navigation ul li a:hover {
+	text-decoration: underline;
+}
+
+
+.content {
+	width: 778px!important;
+	margin: 0;	
+	text-align: left;
+	float: left!important; float: none;
+	clear: both;
+	border-left: 1px solid #7f7f7f;
+	border-right: 1px solid #7f7f7f;
+	}
+
+.content a {
+	color: #fff;
+	}
+
+
+#etusivu,
+#home {
+	text-align: center;
+}
+
+#etusivukuva,
+#etusivuContent img,
+#etusivuContentLeft img{
+	border: 0;
+	float: left;
+}
+
+#etusivu h1 {
+	margin: 10px;
+	}
+
+#etusivuContent {
+	float: right;
+	width: 390px!important; width: 360px;
+	font-size: 1.2em;
+	margin: 30px 10px 0 0!important; margin: 30px 5px 0 0;
+	text-align: center;
+}
+
+#etusivuContentLeft {
+	float: left;
+	width: 350px!important; width: 340px;
+	margin-left: 10px!important;margin-left: 5px;
+}
+
+#etusivu blockquote,
+#home blockquote {
+	font-size: 1.4em;
+	font-weight: bold;
+	line-height: 1.6em;
+	background: url(../images/quote.gif) no-repeat left top;
+	padding: 10px;
+	padding-top: 20px;
+	color: #959595;
+	clear: both;
+	text-indent: 20px;
+}
+
+
+#etusivu blockquote span,
+#home blockquote span
+{
+	display: block;
+	width: 100%;
+	text-align: right;
+	font-size: 0.6em;
+	padding-right: 40px;
+}
+
+
+#etusivuContent p,
+#etusivuContent p a {
+	color: #fff;
+	text-align: left;
+	font-size: 0.9em;
+	line-height: 1.1em;
+	}
+
+#etusivuContent p {
+	margin: 5px 10px 5px 20px;
+	}
+
+
+
+#etusivu img,
+#home img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#referenssit {
+	background: url(../images/lehti.html) no-repeat;
+	padding: 150px 0 20px 0!important;padding: 150px 0 100px 0;	
+}
+
+#yhteydenotto {
+	background: url(../images/puhelin.html) no-repeat;
+	background-position: 0 -70px;
+	padding: 210px 0 20px 0!important;padding: 210px 0 100px 0;	
+}
+
+
+#main {
+	width: 450px;
+	float: left;
+	margin-left: 20px;
+	clear: left;
+}
+
+#referenssit #main {
+	width: 630px;
+}
+
+
+#main p {
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	line-height: 1.3em;
+	font-family: arial, verdana;
+	
+}
+
+
+#rightSub	{
+	width: 267px;
+	padding: 0;
+	float: right;
+	margin-left: auto;
+	margin-right: 5px;
+	position: static!important;
+	}
+	
+#rightSub h2	{	
+	width: 267px;
+	height: 30px;
+	background: url(../images/referenssit_top_bg.html) no-repeat top left!important;
+	background: url(../images/referenssit_top_bg-2.html) no-repeat top left;
+	text-indent: 10px;
+}
+
+#rightSub .referenssit_body	{	
+	width: 247px;
+	padding: 0 10px;
+	background: url(../images/referenssit_middle_bg.html) repeat-y!important;
+	background: url(../images/referenssit_middle_bg-2.html) repeat-y;
+	height: auto;
+}
+
+#rightSub .referenssit_body ul {	
+}
+
+
+#rightSub .referenssit_bottom	{	
+	width: 267px;
+	height: 32px;
+	background: url(../images/referenssit_bottom_bg.html) no-repeat!important;
+	background: url(../images/referenssit_bottom_bg-2.html) no-repeat;
+}
+
+	
+#footer {
+	width: 780px!important;
+	width:782px;
+	height: auto;
+	margin-left: auto;
+	margin-top: auto;
+	background: url(../images/footerTop.png) no-repeat;
+	color: #fff;
+	font: 14px arial, 'century gothic', helvetica, verdana;
+	padding: 5px 0;
+	float: left;
+	position: relative;
+	left: 150px;
+	clear: both;
+	}
+		
+
+#footer li {
+	float: left;
+	padding: 5px 20px 0 10px;
+	}
+
+#footer li a {
+	color: #fff;
+	text-decoration: none;
+	}
+
+
+#footer li img {
+	position: relative;
+	top: -5px;
+	float: left;
+	}
+		
+
+
+#main .referenssilista {
+	margin: 15px 0 15px 30px;
+}
+
+ dl.yhteystiedot{
+	font-family:arial,verdana;
+	font-size:1.2em;
+	line-height:1.3em;
+}
+
+
+.yhteystiedot dt {
+	float: left;
+	width: 80px;
+}
+
+#formContainer dt {
+	margin: 5px 0 2px 0;
+}
+	
+		
+/* Layout for the index page */
+
+.hide {
+	display: none;
+	visibility: hidden;
+}
+
+
+input, textarea {
+  font-size: 1em;
+}
+label {
+  display: block;
+}
+.error {
+  color: #900;
+}
+
+#formContainer {
+	margin-left: 30px;
+	padding-left: 10px;
+	border-left: 15px solid #900;
+}
+
+#duplicateBox label {
+	display: inline;
+	margin-left: 10px;
+}
+
+#progressBar {
+	height: 30px;
+}
+
+#progressBar img {
+	position: relative;
+	left: 15px;
+	top: 6px;
+}
+
+
+/* Yritys-sivu */
+
+#yritys {
+	text-align: left;
+}
+
+.sisaltokuva {
+	float: left;
+	margin: 0 15px 15px 15px;
+}
+
+.sisaltoBoksi {
+	margin: 0 15px 15px 15px;
+	width: 320px;
+	float: left;
+}
+
+#contactform {
+	width: 370px;
+	float: left;
+}
+
+
+.mainosrivi {
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 762px;
+	clear: both;
+}
+
+#etusivu h2,
+#home h2 {
+	text-indent: -20000px;
+	width: 380px;
+	height: 60px;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	cursor: pointer;
+	background-color: transparent;
+	display: block;
+}
+
+#etusivu h2 a,
+#home h2 a {
+	cursor: pointer;
+	display: block;
+}
+
+
+
+
+#liikkeeseen {
+	background-image: url(../images/liikkeeseenOtsikko.png);
+}
+
+#nettikauppaan {
+	background-image: url(../images/nettikauppaOtsikko.png);
+}
+
+#lelukauppaTuotteet {
+	background-image: url(../images/HIMOtsikko.png);
+}
+
+.content dl {
+	width: 320px;
+}
+
+
+.content dt {
+	float: left;
+	width: 90px;
+	margin: 2px 0;
+}
+
+.content dd {
+	width: 180px;
+	float:left;
+	margin: 2px 0;
+}
+
+.yhteystietoLista li {
+	margin: 2px 0;
+}
+
+ul.yhteystietoLista {
+	margin: 10px 0 0 0;
+}
+
+
+/* Kauppa styles  */
+
+#kauppa
+{
+	background-color: #fff;
+	float: left;
+	margin: 10px;
+	color: #000;
+	width: 758px!important; width: 738px;
+	padding-bottom: 10px;
+	}
+
+#kauppa h2,
+#kauppa h3,
+#kauppa h4,
+#kauppa p,
+#kauppa a
+	{
+	color: #000;
+	}
+
+
+.tuotekategoria {
+	text-align: center;
+	width: 180px;
+	height: 180px;
+	float: left;
+	font-size: 1.1em;
+}
+
+.tuotekategoria img {
+	margin: 5px auto;
+}
+
+.tuotekategoria2 {
+	text-align: center;
+	width: 180px;
+	height: 220px;
+	float: left;
+}
+
+.tuotekategoria2 table {
+	margin: 5px auto;
+}
+
+
+#cart {
+	position: absolute;
+	right: 20px;
+	top: 0;
+	height: auto;
+	width: 151px;
+	background: url(../images/cartTopBG.png) no-repeat top left;
+	padding-top: 7px;
+}
+
+#cartContent {
+	padding: 0 5px 10px 5px;
+	background: url(../images/cartBottomBG.png) no-repeat bottom left;
+	width: 141px;
+}
+
+
+#cart p {
+	margin: 0;
+	padding: 0;
+	font-size: 1.1em;
+	color: #000;
+}
+
+#cart p img {
+	margin: 2px auto 0 auto;
+	text-align: right;
+}
+
+
+
+.tuotekuva {
+	float: left;
+	margin:10px 20px 10px 10px;
+}
+
+#breadcrumb {
+	margin-left: 10px;
+	margin-top: 5px;
+	font-size: 0.9em;
+}
+
+#viesti {
+	color: red;
+	font-size: 1.2em;
+	width: 100%;
+	text-align: center;
+}
+
+.ostoskoriButtons img,
+img.noborder {
+	border: 0;
+	}
+	
+.kategoria,
+.productImage {
+	float: left;
+	margin: 0 10px;
+}
+
+
+.wideBox {
+	width: 650px;
+	border-top: 1px dotted #fff;
+	padding-top: 10px;
+	clear: both;
+}
+
+.wideBox img {
+	border: 1px solid #7f7f7f;
+	}
+
+.shopBox {
+	float: left;
+	width: 370px;
+}
+
+.shopBoxInfo {
+	clear: both;
+	margin: 5px 10px 10px 10px;
+}
+
+.shopBoxInfo p {
+	width: 200px;
+	margin: 0;
+}
+
+.shopBoxInfoButton {
+	float: right;
+	margin-top: 10px;
+}
+
+.topDiv {
+	margin-left: 10px;
+}
+
+.topDiv p {
+	width: 550px;
+	float: left;
+	line-height: 1.4em;
+}
+
+
+#viewCartButtonTop {
+	float: right;
+	margin: 0 20px;
+}
+
+#kauppaBlack {
+	position: relative;
+	margin: 10px!important;
+	margin: 4px;
+}
+
+#kauppaBlack a {
+	color: #fff;
+}
+
+
+
+#kauppaBlack h2 {
+	border-bottom: 1px solid #fff;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	clear: both;
+	width: 732px;
+}
+
+.sisaltoBoksi p {
+	font-weight: normal;
+}
+
+.sisaltoBoksi p a {
+	color: #fff;
+}
+
+
+.kokotaulukko {
+	width: 350px;
+	border-top: 1px solid #fff;
+}
+
+.kokotaulukko thead,
+.kokotaulukko thead tr:hover {
+	background-color: transparent;
+}
+
+.kokotaulukko thead {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.kokotaulukko td, 
+.kokotaulukko th {
+	padding: 2px 5px;
+}
+
+.kokotaulukko th {
+	font-weight: bold;
+}
+
+
+.kokotaulukko tr:hover {
+	background-color: #eee;
+	color: #000;
+}
+.kokotaulukko tr {
+	width: 350px;
+}
+
+
+.kokotaulukkoLinkki {
+	float: left;
+	position: relative;
+}
+
+.shopBoxInfo h4 {
+	clear: both;
+	padding: 10px 0 5px 0;
+}
+
+#paaKategoriat {
+	width: 720px;
+	margin: 0 auto;
+}
+
+.promoBoksiEtusivu {
+	width: 260px;
+	margin: 5px 0;
+	padding: 10px 5px 5px 5px;
+	background: #ccc url(../images/sideBoxBG.jpg) repeat-x top left;
+	border-bottom: 5px solid #dadada;
+	float: right;
+	clear: both;
+}
+
+#etusivuContent .promoBoksiEtusivu p {
+	float: left;
+	margin: 5px 10px!important;
+	width: 200px;
+	color: #000!important;
+}
+
+#etusivuContent .promoBoksiEtusivu a {
+	color: #000!important;
+	}
+
+.promoBoksiEtusivu h4 {
+	margin: 5px 10px!important;
+	color: #000;
+}
+
+.promoBoksiEtusivu img {
+	border: 1px solid #000!important;
+	float: left;
+	margin: 5px;
+}
+
+.kauppaKategoria {
+	float: left;
+	width: 330px;
+	margin: 10px 10px 0 0;
+	text-align: center;
+	border-bottom: 1px dotted #dadada;
+}
+
+.nappi {
+	display: block;
+	float: right;
+	padding: 5px;
+	border: 1px solid #d30b2b;
+	background: url(../images/nappiBG.png) 0 50% repeat-x;
+	color: #fff!important;
+	font-weight: bold;
+	text-decoration: none;
+	width: 100px;
+	margin-right: 10px;
+}
+
+.kauppaKategoria img {
+	float: left;
+	margin-right: 10px;
+	border: 0;
+}
+
+.kauppaKategoriaData {
+	float: left;
+	width: 190px;
+	height: 220px;
+}
+
+.kauppaKategoria h2 {	
+	text-decoration: none;
+}
+
+.kauppaKategoria h2  {	
+	text-align: left;
+}
+
+
+.kauppaKategoria p {
+	text-align: left;
+	font-size: 0.9em;
+	margin: 10px;
+}
+
+#vasenpalsta {
+	float: left;
+	width: 450px!important;
+	margin: 0 10px 0 20px!important;
+	margin: 0 10px 0 10px!important;
+}
+
+#oikeapalsta {
+	float: left;
+	width: 260px!important;
+	background: #ccc url(../images/sideBoxBG.jpg) repeat-x top left;
+	color: #000;
+	padding: 10px;
+	border-bottom: 5px solid #dadada;
+	overflow: hidden;
+}
+
+#oikeapalsta h2 {
+	color: #696969;
+}
+
+
+#vasenpalsta .sisaltokuva {
+	margin-left: 0;
+}
+
+#oikeapalsta dl,
+#oikeapalsta li {
+	clear: both;
+}
+
+.sivuboksi {
+	float: left;
+	width: 260px;
+	background: #ccc url(../images/sideBoxBG.jpg) repeat-x top left;
+	color: #000;
+	padding: 10px;
+	border-bottom: 5px solid #dadada;
+}
+
+/* English pages */
+
+#etusicuContentWide {
+	width: 760px;
+	margin: 0 auto 10px auto;
+}
+
+.adBox {
+	width: 350px!important;
+	width: 347px;
+	background: #ccc url(../images/sideBoxBG.jpg) repeat-x top left;
+	float: left;
+	text-align: left;
+	padding: 20px 10px 10px 10px;
+	margin: 5px 5px 15px 5px;
+	color: #000;
+	font-size: 1.2em;
+	position: relative;
+	overflow: hidden;
+	border-bottom: 5px solid #dadada;
+}
+
+.adBox img {
+	float: left;
+	margin-right: 10px!important;
+
+}
+
+.adBox h2 {
+	text-indent: 0!important;
+	color:#000!important;
+	line-height: 1.2em!important;
+	font-size: 1.3em!important;
+	height: auto!important;
+	width: auto!important;
+	font-family:'century gothic',helvetica,arial,verdana;
+}
+
+.adBox h2 a {
+	font-family:'century gothic',helvetica,arial,verdana;
+}
+
+.adBox h4 a {
+	font-weight:bold;
+}
+
+
+
+.adBox p {
+	clear: both;
+	padding: 5px;
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.1em;
+
+}
+
+.adBox p a,
+.adBox h2 a,
+.adBox h4 a {
+	color: #000;
+	text-decoration: none;
+
+}
+
+.adBox a.nappi {
+	text-align:center;
+	font-size: 0.9em !important;
+
+}
+
+#langDiv {
+	position: absolute;
+	top:75px;
+	right: 10px;
+	padding: 5px;
+	color: #f2d724;
+}
+
+#langDiv a {
+	color: #f2d724;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding-left: 25px;
+}
+
+#langDiv a:hover {
+	background: url(../images/inFinnish.gif) no-repeat 0 3px;
+}
+
+#langDiv a.englanniksi{
+	font-size: 22px;
+}
+#langDiv a.englanniksi:hover {
+	background-image: none;
+}

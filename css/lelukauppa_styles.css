@@ -1,0 +1,163 @@
+img, div, background, h2 {
+behavior: url(iepngfix.htc);
+}
+
+
+/* CSS Document */
+
+
+/* Baseline  CSS  These declarations reset all the default values for all browsers */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,pre,form,fieldset,input,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+cite,code,em,th{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+th{text-align:left;}
+h1,h2,h3,h4{font-size:100%;}
+q:before,q:after{content:'';}
+
+
+
+body { 	
+	font: 76% arial, verdana, sans-serif; 
+	line-height: 1.2em;
+	padding: 0px;
+	background: #000;
+	text-align: left;
+	color: #fff;
+	}
+
+p {
+	font-size: 1.2em;
+	margin: 0 0 20px 0;
+}
+
+a {
+	font: 1.0em arial,sans-serif; 
+	color: #fff;
+	text-decoration: underline;
+	}
+
+
+h1 {
+	color: #9c2525;
+	margin: 15px 15px 20px 15px;
+}
+
+ul {
+	margin-left: 0px;
+	margin-top: 0px;
+	}
+
+h1, 
+h2 {
+	font: 2em 'century gothic', helvetica, arial, verdana;
+	letter-spacing: 0.1px;
+	}
+
+h2 {	
+	color: #fff;
+	}	
+
+h3 {
+	color: #fff;
+	font-size: 1.2em;
+	font-family: 'century gothic', arial, verdana;
+	margin: 5px 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+h5 {
+	font-size: 1.0em;
+}
+
+/* Navigation styles */
+
+#navigation ul li {
+	display: inline;
+}
+	
+/* Image replacement */
+
+
+/* etusivuOikea */
+
+#rightSub h4,
+#rightSub h4 a,
+#rightSub dd,
+#rightSub dt {
+	color: #363636;
+	font-family: arial, 'century gothic', verdana;
+	font-size: 1em;
+	line-height: 1.1em;
+	font-weight: 500;
+}
+
+
+#rightSub li h4 a {
+	text-decoration: underline;
+	}
+	
+#rightSub li {
+	padding: 0 0 10px 2px;
+	}
+		
+	
+#main .referenssilista li {
+	border-bottom: 2px dotted #eee;
+}
+
+	
+#main .referenssilista li h2 span  {
+	font-size: 0.6em!important;
+	color: #000;
+}
+	
+	
+#main .referenssilista li p {
+	font-size: 1em;
+}
+
+#main .referenssilista li p .refernssiListaLinkki {
+	margin: 0;
+}
+
+/* Contact form */
+
+#contactform {
+	color: #333;
+	font-family: "century gothic",Verdana,Helvetica,Arial,sans-serif;
+	margin: 0;
+	font-weight: bold;
+ 	padding: 0 20px;
+}
+
+#contactform input, 
+#contactform textarea {
+  font-size: 1em;
+}
+
+#contactform label {
+  display: block;
+  background-color: transparent;
+  
+}
+#contactform .error {
+  color: #900;
+}
+
+.content img {
+	border: 1px solid #7f7f7f;
+	padding: 5px;
+	}
+	
+label {
+	color: #fff;
+}
+
+
+.errors li {
+	color: red;
+}

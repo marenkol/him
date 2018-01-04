@@ -1,0 +1,667 @@
+body{
+    background-image: none;
+    background-color: #fff;
+    color: #282828;
+    font: 16px arial, helvetica, sans-serif ;
+    font-weight: normal;
+    overflow-x: hidden;
+    line-height: 1.4;
+    padding-top: 90px;
+}
+
+body p{
+    font: 16px arial, helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 1.4;
+}
+@media (min-width: 768px){
+    body{
+        padding-top: 175px;
+    }
+}
+
+a,
+button,
+input{
+    transition: color .3s,
+    background-color .3s;
+}
+
+a{
+    color: #282828;
+}
+
+a:hover{
+    color: #eb122e;
+}
+
+main{
+    background: #282828 url(../images/carbon2-bg.png) top left;
+}
+
+.container{
+    max-width: 1200px !important;
+}
+/* Navigation*/
+
+.navigation{
+    background-color: #eb122e;
+    box-shadow: 0 0px 18px 1px rgba(0,0,0, .5) inset;
+    margin-bottom: 0;
+    border-bottom: 1.5px solid yellow;
+}
+
+.navigation .collapse.navbar-collapse{
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .navbar-header {
+        float: none;
+        display: block;
+        height: 150px;
+    }
+}
+
+.navigation__brand{
+    display: block;
+    float: none;
+    max-width: 85%;
+    padding-top: 0;
+    height: 90px;
+}
+
+@media (min-width: 450px){
+    .navigation__brand{
+        height: 120px;
+    }
+}
+
+.navbar-default button.navbar-toggle{
+    border-color: #fff;
+    margin-top: 15px;
+}
+
+.navbar-default button.navbar-toggle:hover{
+    background-color: rgba(0,0,0, .3);
+}
+
+.navbar-default button.navbar-toggle span.icon-bar{
+    background-color: #fff;
+}
+
+.navigation .nav .navigation__link{
+    display: block;
+    color: #f2e400;
+    font: 15px arial, helvetica, sans-serif;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation .nav .navigation__link:hover{
+    color: #282828;
+}
+
+@media (min-width: 768px){
+    .navigation .nav .navigation__link{
+        display: inline-block;
+        padding: 4px 12px 12px 6px;
+        font-size: 16px;
+    }
+}
+
+.navigation__ul{
+    position: relative;
+    float: none;
+    width: 100%;
+}
+
+
+.navigation .nav .navigation__link.englanniksi{
+    color: #f2e400;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 0;
+}
+li.lang-link-wrap{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    li.lang-link-wrap{
+        top: -65px;
+    }
+}
+
+
+
+/* ========================================
+INTRO
+=========================================*/
+.intro{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    width: 100%;
+    height: 400px;
+    margin-top: -2px;
+}
+
+
+.intro__title{
+    position: absolute;
+    left: 50%;
+    bottom: 70px;
+    width: 100%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: #f2e400;
+    padding: 5px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+@media (min-width: 768px){
+    .intro{
+        height: 650px;
+    }
+
+    .intro__title{
+        font-size: 45px;
+    }
+}
+
+
+/* ========================================
+SERVICES
+=========================================*/
+.services{
+    padding: 50px 0;
+    color: #fff;
+}
+
+.services a{
+    color: #fff;
+    font-size: 17px;
+}
+
+.services a:hover{
+    color: #eb122e;
+}
+
+.services__title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #eb122e;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+
+.services__flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.services__flexitem{
+    flex: 0 0 350px;
+    max-width: 350px;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.services__linkbox{
+    text-decoration: none;
+}
+.services__linkbox:hover{
+    text-decoration: none;
+}
+
+.services__iconbox i{
+    font-size: 80px;
+    margin-bottom:20px;
+    color: #fff;
+}
+
+.services__himlogo{
+    height: 70px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0px 2px #fff;
+}
+
+.services__linktitle{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    transition: color .3s;
+}
+.services__linktitle:hover{
+    color: #eb122e;
+}
+
+@media (min-width: 768px){
+
+    .services__title{
+        font-size: 34px;
+    }
+
+}
+
+
+
+
+/* ========================================
+FOOTER
+=========================================*/
+.footer{
+    font-size: 14px;
+    text-align: center;
+    padding: 50px 0 20px;
+    background: #000 url(../images/carbon-bg.png) top left;
+    color: #fff;
+}
+@media (min-width: 992px){
+    .footer{
+        text-align: left;
+    }
+}
+
+.footer a{
+    color: #fff;
+}
+
+.footer a:hover{
+    color: #eb122e;
+}
+
+.footer__col{
+    margin-bottom: 30px;
+}
+
+
+
+
+/* ========================================
+YRITYS page
+=========================================*/
+.yritys{
+    padding: 50px 0;
+    margin-top: -2px;
+    color: #fff;
+
+}
+
+.yritys a{
+    color: #fff;
+}
+
+.yritys__title{
+    font-size: 25px;
+    padding: 0;
+    margin: 0 0 30px 0;
+    color: #ec122e;
+    font-weight: bold;
+}
+
+@media (min-width: 768px){
+    .yritys__title{
+        font-size: 34px;
+    }
+}
+
+.yritys__image{
+    margin-bottom: 30px;
+}
+
+
+
+/* ========================================
+HIM page
+=========================================*/
+.him{
+    padding: 50px 0 20px;
+    color: #fff;
+}
+
+.him a{
+    color: #fff;
+}
+
+.him__title{
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    color: #ec122e;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@media (min-width: 768px){
+    .him__title{
+        font-size: 34px;
+    }
+}
+
+.him__topcontent{
+    font-size: 19px;
+    margin-bottom: 35px;
+    padding: 0;
+}
+
+.him #viewCartButtonTop{
+    margin-top: 20px;
+}
+
+.him__subtitle{
+    padding-bottom: 10px;
+    margin-bottom: 35px;
+    border-bottom: 2px solid lightgrey;
+
+}
+
+.him__flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.him__flexitem{
+    flex: 0 0 315px;
+    max-width: 315px;
+    float: none;
+    padding: 0 10px;
+}
+
+@media (min-width: 450px){
+    .him__flexitem{
+        flex-basis: 350px;
+        max-width: 350px;
+    }
+}
+
+.him__image{
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 0  10px 0;
+    float: none;
+    border: 1px solid lightgrey;
+}
+
+
+
+/* ========================================
+TUOTTEET page
+=========================================*/
+.tuotteet{
+    padding: 50px 0 20px;
+    color: #fff;
+}
+
+.tuotteet a{
+    color: #fff;
+}
+
+.tuotteet__topcontent{
+    font-size: 15px;
+    margin-bottom: 35px;
+    padding: 0;
+}
+
+.tuotteet__title{
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    color: #ec122e;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@media (min-width: 768px){
+    .tuotteet__title{
+        font-size: 34px;
+    }
+}
+
+.tuotteet__subtitle{
+    padding-bottom: 10px;
+    margin-bottom: 35px;
+    border-bottom: 2px solid lightgrey;
+}
+
+.tuotteet__flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.tuotteet__flexitem{
+    flex: 0 0 310px;
+    max-width: 310px;
+    float: none;
+    padding: 0 5px;
+}
+
+@media (min-width: 450px){
+    .tuotteet__flexitem{
+        flex-basis: 350px;
+        max-width: 350px;
+    }
+}
+
+.tuotteet__image{
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 0  10px 0;
+    float: none;
+    border: 1px solid lightgrey;
+}
+
+.tuotteet table.kokotaulukko{
+    width: 280px;
+}
+@media (min-width: 450px){
+    .tuotteet table.kokotaulukko{
+        width: 100%;
+    }
+}
+
+.tuotteet table.kokotaulukko thead{
+    font-size: 12px;
+}
+
+.tuotteet dl dt {
+    font-weight: normal;
+    float: left;
+    width: 90px;
+    margin: 2px 0;
+}
+
+.tuotteet dl dd{
+    width: 180px;
+    float: left;
+    margin: 2px 0;
+}
+
+.tuotteet select{
+    color: #282828;
+}
+
+
+
+/* ========================================
+CONTACT US page
+=========================================*/
+.contactus{
+    padding: 50px 0 20px;
+    color: #fff;
+}
+
+.contactus a{
+    color: #fff;
+}
+
+.contactus a:hover{
+    color: #ec122e;
+}
+
+.contactus__title{
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    color: #ec122e;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@media (min-width: 768px){
+    .contactus__title{
+        font-size: 34px;
+    }
+}
+
+.contactus__mapbox{
+    padding: 5px;
+    border: 1px solid lightgrey;
+    margin-bottom: 30px;
+}
+
+.contactus #oikeapalsta{
+    width: 300px !important;
+    font-size: 12px;
+}
+
+.contactus #oikeapalsta a{
+    color: #282828;
+}
+
+.contactus  dt {
+    float: left;
+    width: 120px;
+    margin: 2px 0;
+}
+
+.contactus dd {
+    width: 160px;
+    float: left;
+    margin: 2px 0;
+}
+
+.contactus #map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
+
+
+/* ========================================
+EN Front page
+=========================================*/
+.en_front{
+    padding: 50px 0 20px;
+}
+
+.en_front__title{
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    color: #ec122e;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+@media (min-width: 768px){
+    .en_front__title{
+        font-size: 34px;
+    }
+}
+
+.en_front__topimg{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.en_front__flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.en_front__flexitem{
+    flex: 0 1 350px;
+    margin: 0 0 30px;
+    font-size: 16px;
+}
+
+@media (min-width: 642px){
+    .en_front__flexitem{
+        margin: 0 20px 30px;
+    }
+}
+
+.en_front__flexitem h2{
+    font-size: 18px!important;
+    line-height: 20px!important;
+    margin-bottom: 15px;
+}
+.en_front__flexitem h2 a{
+    display: inline-block;
+}
+
+.en_front__flexitem h4 a{
+    display: inline-block;
+    font-size: 15px;
+}
+
+.en_front__flexitem h2 a:hover,
+.en_front__flexitem h4 a:hover{
+    color: #ec122e;
+}
+
+.en_front .en_front__flexitem .shopBoxInfoButton{
+    padding: 8px 5px;
+    font-size: 16px !important;
+}
+
+.en_front .en_front__flexitem .shopBoxInfoButton:hover{
+    text-decoration: none;
+}
+
+.en_front__imglink{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #282828;
+    margin: 0 0 10px  0 !important;
+    transition: border-color .4s;
+}
+
+.en_front__imglink:hover{
+    border-color: #fff;
+}
+.en_front__imglink .en_front__prodimg{
+    margin-right: 0 !important;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
