@@ -16,7 +16,7 @@ body p{
 }
 @media (min-width: 768px){
     body{
-        padding-top: 175px;
+        padding-top: 135px;
     }
 }
 
@@ -46,7 +46,7 @@ main{
 
 .navigation{
     background-color: #eb122e;
-    box-shadow: 0 0px 18px 1px rgba(0,0,0, .5) inset;
+    box-shadow: 0 0 23px -3px rgba(0,0,0, .5) inset;
     margin-bottom: 0;
     border-bottom: 1.5px solid yellow;
 }
@@ -59,21 +59,24 @@ main{
     .navbar-header {
         float: none;
         display: block;
-        height: 150px;
+        height: 100px;
     }
 }
 
 .navigation__brand{
     display: block;
     float: none;
-    max-width: 85%;
+    max-width: 80%;
     padding-top: 0;
     height: 90px;
 }
 
 @media (min-width: 450px){
     .navigation__brand{
-        height: 120px;
+        height: 100px;
+    }
+    .navigation__brand img{
+        height: 100%;
     }
 }
 
@@ -118,7 +121,6 @@ main{
     width: 100%;
 }
 
-
 .navigation .nav .navigation__link.englanniksi{
     color: #f2e400;
     font-size: 22px;
@@ -133,7 +135,7 @@ li.lang-link-wrap{
 
 @media (min-width: 768px) and (max-width: 991px){
     li.lang-link-wrap{
-        top: -65px;
+        top: -40px;
     }
 }
 
@@ -169,11 +171,16 @@ INTRO
 
 @media (min-width: 768px){
     .intro{
-        height: 650px;
+        height: 600px;
     }
 
     .intro__title{
         font-size: 45px;
+    }
+}
+@media (min-width: 1400px){
+    .intro{
+        height: 750px;
     }
 }
 
