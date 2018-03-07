@@ -107,6 +107,10 @@ main{
         padding: 22px 12px 20px 6px;
         font-size: 13px;
     }
+
+    .him-en .navigation .nav .navigation__link{
+        font-size: 12px;
+    }
 }
 
 .navigation__ul{
