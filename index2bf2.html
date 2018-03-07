@@ -233,6 +233,47 @@
 				</form>
 			</div>
 
+			<div class="shopBox tuotteet__flexitem">
+				<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+					<img class="noborder" alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					<input type="hidden" name="business" value="info@aikuistenlelukauppa.fi">
+					<input type="hidden" name="cmd" value="_cart">
+					<input type="hidden" name="no_shipping" value="0">
+					<input type="hidden" name="no_note" value="1">
+					<input type="hidden" name="currency_code" value="EUR">
+					<input type="hidden" name="lc" value="en_US">
+					<input type="hidden" name="bn" value="PP-ShopCartBF">
+					<input type="hidden" name="add" value="1">
+					<input type="hidden" name="item_name" value="Aikuisten lelukauppa Huppari">
+					<input type="hidden" name="amount" value="43.00">
+					<input type="hidden" name="shipping" value="10.00">
+
+					<img class="productImage tuotteet__image" src="images/Hupparit_740.png" width="730" height="auto" alt="Aikuisten lelukauppa Hoodie">
+					<div class="shopBoxInfo">
+						<input class="shopBoxInfoButton nappi" type="submit" name="submit" value="Lisää Koriin!">
+						<h3>Aikuisten lelukauppa Huppari</h3>
+						<dl class="him-dl"><dt>Hinta:</dt><dd>43 €</dd><dt><input type="hidden" name="on0" value="Size"><label for="hoodieKoko">Koko</label></dt><dd><select name="os0" id="hoodieKoko">
+									<option value="Small">Small</option>
+									<option value="Medium">Medium</option>
+									<option value="Large">Large</option>
+									<option value="X-large">X-large</option>
+									<option value="XX-Large">XX-Large</option>
+								</select></dd><dt>Määrä:</dt><dd><select name="quantity">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select></dd></dl>
+				</div> <!-- /shopBoxInfo -->
+			</form>
+		</div>
+
 		</div>
 		<!-- /.tuotteet__flex -->
 	</div>

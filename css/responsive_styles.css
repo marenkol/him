@@ -425,14 +425,18 @@ HIM page
 TUOTTEET page
 =========================================*/
 .tuotteet{
-    padding: 50px 0 20px;
+    padding: 30px 0 20px;
     color: #fff;
+}
+@media (min-width: 768px){
+    .tuotteet{
+        padding-top: 80px;
+    }
 }
 
 .tuotteet a{
     color: #fff;
 }
-
 .tuotteet__topcontent{
     font-size: 15px;
     margin-bottom: 35px;
@@ -468,15 +472,18 @@ TUOTTEET page
 }
 
 .tuotteet__flexitem{
-    flex: 0 0 310px;
     max-width: 310px;
     float: none;
     padding: 0 5px;
 }
 
+.tuotteet__flexitem:last-child{
+    flex: 0 1 600px;
+    max-width: 600px;
+}
+
 @media (min-width: 450px){
     .tuotteet__flexitem{
-        flex-basis: 350px;
         max-width: 350px;
     }
 }
@@ -510,13 +517,25 @@ TUOTTEET page
 }
 
 .tuotteet dl dd{
-    width: 180px;
+    width: 160px;
     float: left;
     margin: 2px 0;
 }
 
 .tuotteet select{
     color: #282828;
+}
+
+.tuotteet label{
+    margin-bottom: 0;
+}
+
+.tuotteet .shopBoxInfoButton{
+    font-size: 12px;
+}
+
+.him-dl{
+    max-width: 300px;
 }
 
 
