@@ -159,7 +159,7 @@ INTRO
 .intro__title{
     position: absolute;
     left: 50%;
-    bottom: 70px;
+    top: 70px;
     width: 100%;
     transform: translateX(-50%);
     font-size: 20px;
@@ -203,11 +203,23 @@ SERVICES
 }
 
 .services__title{
+    position: relative;
     font-size: 20px;
     font-weight: bold;
     color: #eb122e;
     line-height: 1.5;
-    margin-bottom: 35px;
+    margin-bottom: 75px;
+}
+
+.services__title:after{
+    position: absolute;
+    content: '';
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 1px;
+    background-color: #eb122e;
 }
 
 .services__flex{
@@ -217,8 +229,8 @@ SERVICES
 }
 
 .services__flexitem{
-    flex: 0 0 350px;
-    max-width: 350px;
+    flex: 0 0 470px;
+    max-width: 470px;
     padding: 10px;
     margin-bottom: 30px;
     font-size: 17px;
