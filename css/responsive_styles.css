@@ -1,6 +1,6 @@
 body{
     background-image: none;
-    background-color: #fff;
+    background-color: #000;
     color: #282828;
     font: 16px arial, helvetica, sans-serif ;
     font-weight: normal;
@@ -31,7 +31,7 @@ a:hover{
 }
 
 main{
-    background: #282828 url(../images/carbon2-bg.png) top left;
+    padding-bottom: 50px;
 }
 
 .container{
@@ -304,6 +304,14 @@ FOOTER
     background: #000 url(../images/carbon-bg.png) top left;
     color: #fff;
 }
+
+.footer.fixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
 @media (min-width: 992px){
     .footer{
         text-align: left;
