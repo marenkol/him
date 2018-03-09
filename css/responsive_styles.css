@@ -638,9 +638,9 @@ CONTACT US page
 EN Front page
 =========================================*/
 .en_front{
-    padding: 50px 0 20px;
+    padding: 0 0 20px;
 }
-
+/*
 .en_front__title{
     font-size: 22px;
     margin: 0 0 30px 0;
@@ -655,9 +655,9 @@ EN Front page
     .en_front__title{
         font-size: 34px;
     }
-}
+} */
 
-.en_front__topimg{
+/* .en_front__topimg{
     display: inline-block;
     margin-bottom: 30px;
 }
@@ -723,7 +723,7 @@ EN Front page
 .en_front__imglink .en_front__prodimg{
     margin-right: 0 !important;
     max-width: 100%;
-}
+} */
 
 
 
