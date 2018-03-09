@@ -257,6 +257,27 @@ SERVICES
 .services__linkbox:hover{
     text-decoration: none;
 }
+.services__iconbox{
+    display: inline-block;
+    text-decoration: none;
+    transition: opacity .3s;
+}
+.services__button{
+    display: inline-block;
+    padding: 12px 30px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: border-color .3s, color .3s;
+}
+.services__iconbox:hover{
+    opacity: .7;
+}
+.services__button:hover{
+    text-decoration: none;
+    border-color: #eb122e;
+}
 
 .services__iconbox i{
     font-size: 80px;
