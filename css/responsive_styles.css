@@ -511,7 +511,8 @@ TUOTTEET page
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 30px;
+    max-width: 1030px;
+    margin: 0 auto 30px;
 }
 
 .tuotteet__flexitem{
