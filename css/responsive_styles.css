@@ -50,7 +50,7 @@ main{
     padding: 0;
 }
 
- @media (min-width: 992px) {
+ @media (min-width: 1200px) {
     .him-navbar {
         float: right;
     }
@@ -104,19 +104,14 @@ main{
 @media (min-width: 768px){
     .navigation .nav .navigation__link{
         display: inline-block;
-        padding: 22px 12px 20px 6px;
+        padding: 22px 8px 20px 6px;
         font-size: 13px;
-    }
-
-    .him-en .navigation .nav .navigation__link{
-        font-size: 12px;
     }
 }
 
 .navigation__ul{
     margin: 0;
 }
-
 
 .navigation .nav .navigation__link.englanniksi{
     color: #f2e400;
@@ -129,17 +124,15 @@ main{
     .navigation__ul{
         height: 65px;
     }
-    .navigation .nav .navigation__link{
-        padding: 25px 12px 20px 6px;
-        font-size: 16px;
-    }
-
+  .navigation .nav .navigation__link{
+      font-size: 14px;
+      padding-top: 26px;
+  }
     .navigation .nav .navigation__link.englanniksi{
         padding-top: 19px;
         font-size: 22px;
     }
 }
-
 
 
 /* ========================================
@@ -156,7 +149,6 @@ INTRO
     margin-top: -2px;
     overflow-x: hidden;
 }
-
 
 .intro__title{
     position: absolute;
@@ -190,7 +182,6 @@ INTRO
         height: 750px;
     }
 }
-
 @media (min-width: 1600px){
     .intro__title{
         top: 46%;
@@ -254,14 +245,17 @@ SERVICES
 .services__linkbox{
     text-decoration: none;
 }
+
 .services__linkbox:hover{
     text-decoration: none;
 }
+
 .services__iconbox{
     display: inline-block;
     text-decoration: none;
     transition: opacity .3s;
 }
+
 .services__button{
     display: inline-block;
     padding: 12px 30px;
@@ -271,9 +265,11 @@ SERVICES
     font-size: 20px;
     transition: border-color .3s, color .3s;
 }
+
 .services__iconbox:hover{
     opacity: .7;
 }
+
 .services__button:hover{
     text-decoration: none;
     border-color: #eb122e;
@@ -305,13 +301,10 @@ SERVICES
 }
 
 @media (min-width: 768px){
-
     .services__title{
         font-size: 34px;
     }
-
 }
-
 
 
 
@@ -352,8 +345,6 @@ FOOTER
 }
 
 
-
-
 /* ========================================
 YRITYS page
 =========================================*/
@@ -389,7 +380,6 @@ YRITYS page
 .yritys__image{
     margin-bottom: 30px;
 }
-
 
 
 /* ========================================
@@ -472,7 +462,6 @@ HIM page
 }
 
 
-
 /* ========================================
 TUOTTEET page
 =========================================*/
@@ -480,6 +469,7 @@ TUOTTEET page
     padding: 30px 0 20px;
     color: #fff;
 }
+
 @media (min-width: 768px){
     .tuotteet{
         padding-top: 80px;
@@ -489,6 +479,7 @@ TUOTTEET page
 .tuotteet a{
     color: #fff;
 }
+
 .tuotteet__topcontent{
     font-size: 15px;
     margin-bottom: 35px;
@@ -551,6 +542,7 @@ TUOTTEET page
 .tuotteet table.kokotaulukko{
     width: 280px;
 }
+
 @media (min-width: 450px){
     .tuotteet table.kokotaulukko{
         width: 100%;
@@ -669,97 +661,3 @@ EN Front page
 .en_front{
     padding: 0 0 20px;
 }
-/*
-.en_front__title{
-    font-size: 22px;
-    margin: 0 0 30px 0;
-    color: #ec122e;
-    font-weight: bold;
-    padding-right: 10px;
-    padding-left: 10px;
-    text-align: center;
-}
-
-@media (min-width: 768px){
-    .en_front__title{
-        font-size: 34px;
-    }
-} */
-
-/* .en_front__topimg{
-    display: inline-block;
-    margin-bottom: 30px;
-}
-
-.en_front__flex{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-}
-
-.en_front__flexitem{
-    flex: 0 1 350px;
-    margin: 0 0 30px;
-    font-size: 16px;
-}
-
-@media (min-width: 642px){
-    .en_front__flexitem{
-        margin: 0 20px 30px;
-    }
-}
-
-.en_front__flexitem h2{
-    font-size: 18px!important;
-    line-height: 20px!important;
-    margin-bottom: 15px;
-}
-.en_front__flexitem h2 a{
-    display: inline-block;
-}
-
-.en_front__flexitem h4 a{
-    display: inline-block;
-    font-size: 15px;
-}
-
-.en_front__flexitem h2 a:hover,
-.en_front__flexitem h4 a:hover{
-    color: #ec122e;
-}
-
-.en_front .en_front__flexitem .shopBoxInfoButton{
-    padding: 8px 5px;
-    font-size: 16px !important;
-}
-
-.en_front .en_front__flexitem .shopBoxInfoButton:hover{
-    text-decoration: none;
-}
-
-.en_front__imglink{
-    display: inline-block;
-    padding: 5px;
-    border: 1px solid #282828;
-    margin: 0 0 10px  0 !important;
-    transition: border-color .4s;
-}
-
-.en_front__imglink:hover{
-    border-color: #fff;
-}
-.en_front__imglink .en_front__prodimg{
-    margin-right: 0 !important;
-    max-width: 100%;
-} */
-
-
-
-
-
-
-
-
-
-
