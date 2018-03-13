@@ -6,6 +6,7 @@
 <head>
 	<title>Aikuisten Lelukauppa - Palveleva seksitarvikeliike Helsingissä. Meiltä läydät parhaat seksilelut!</title>
 	<link rel="stylesheet" media='screen' type='text/css' href="css/bootstrap.min.css">
+	<link rel="stylesheet" media='screen' type='text/css' href="css/jquery.fancybox.min.css">
 	<link rel='stylesheet' media='screen' type='text/css' href='css/lelukauppa_styles.css'/>
 	<link rel='stylesheet' media='screen' type='text/css' href='css/lelukauppa_layout.css'/>
 	<link rel='stylesheet' media='screen' type='text/css' href='css/responsive_styles.css'/>
@@ -246,7 +247,10 @@
 					<input type="hidden" name="amount" value="20.00">
 					<input type="hidden" name="shipping" value="0.00">
 
-					<img class="productImage tuotteet__image" src="images/Aikuisten_Lelukauppa_tshirt_mens_new.jpg" alt="Miesten Aikuisten lelukauppa T-paita New" />
+					<a class="tuotteet__imagelink" href="images/new_design.png" data-fancybox data-caption="Miesten Aikuisten lelukauppa T-paita New" title="Katso suurempaa kuvaa">
+						<img class="productImage tuotteet__image" src="images/Aikuisten_Lelukauppa_tshirt_mens_new.jpg" alt="Miesten Aikuisten lelukauppa T-paita New" />
+					</a>
+
 					<div class="shopBoxInfo">
 						<input class="shopBoxInfoButton" type="image" src="images/addToCart_button.png" border="0" name="submit" alt="Lisää ostoskoriin!" />
 						<h3>Miesten Aikuisten lelukauppa T-paita New</h3>
@@ -310,7 +314,10 @@
 					<input type="hidden" name="amount" value="25.00">
 					<input type="hidden" name="shipping" value="0.00">
 
-					<img class="productImage tuotteet__image" src="images/Aikuisten_Lelukauppa_tshirt_womens_new.jpg" alt="Naisten Aikuisten lelukauppa T-paita New" />
+					<a class="tuotteet__imagelink" href="images/new_design.png" data-fancybox data-caption="Naisten Aikuisten lelukauppa T-paita New" title="Katso suurempaa kuvaa">
+						<img class="productImage tuotteet__image" src="images/Aikuisten_Lelukauppa_tshirt_womens_new.jpg" alt="Naisten Aikuisten lelukauppa T-paita New" />
+					</a>
+
 					<div class="shopBoxInfo">
 						<input class="shopBoxInfoButton" type="image" src="images/addToCart_button.png" border="0" name="submit" alt="Lisää ostoskoriin!" />
 						<h3>Naisten Aikuisten lelukauppa T-paita New</h3>
@@ -440,6 +447,7 @@
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
 	<script src="js/him.js"></script>
 
 </body>

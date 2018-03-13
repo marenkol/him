@@ -532,11 +532,20 @@ TUOTTEET page
     }
 }
 
-.tuotteet__image{
-    display: inline-block;
-    max-width: 100%;
+.tuotteet__imagelink{
+    display: block;
     margin: 0 0  10px 0;
+}
+
+.tuotteet__imagelink:focus{
+    outline: none;
+}
+
+.tuotteet__image{
+    display: block;
+    max-width: 100%;
     float: none;
+    margin: 0;
     border: 1px solid lightgrey;
 }
 
