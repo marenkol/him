@@ -552,7 +552,9 @@ TUOTTEET page
 .tuotteet table.kokotaulukko{
     width: 280px;
 }
-
+.tuotteet table.kokotaulukko thead tr:hover{
+    color: #FFF;
+}
 @media (min-width: 450px){
     .tuotteet table.kokotaulukko{
         width: 100%;
